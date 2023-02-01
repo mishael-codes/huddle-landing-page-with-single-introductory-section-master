@@ -49,7 +49,7 @@ Users should be able to:
 
 ### What I learned
 
-I improved my knowledge of the bootstrap css framework. For example, I learned how to add borders on elements using the `border` class, create a rounded/curved border using the `border` class and so on.
+I improved my knowledge of the bootstrap css framework. For example, I learned how to add borders on elements using the `border` class, create a rounded/curved border using the `rounded` class and so on.
 
 ### Continued development
 
