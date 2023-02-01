@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+}
+
+* {
+  max-height: 100vh;
+  box-sizing: border-box;
+}
+
+body {
+  max-height: 100vh;
+  background: url(images/bg-mobile.svg) var(--violet) no-repeat;
+}
+
+header {
+  min-width: 100vw;
+}
+
+#heading-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: hsl(0, 0%, 90%);
+}
+
+#paragraph-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15.5px;
+  color: hsl(0, 0%, 85%);
+}
+
+.btn {
+  color: var(--violet);
+  height: 40px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+#logo {
+  width: 35%;
+}
+
+.fa-brands {
+  border: 1px;
+}
+
+.attribution {
+  font-size: 16px;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    max-width: 1440px;
+    background: url(images/bg-desktop.svg) var(--violet) no-repeat;
+  }
+
+  main {
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+  }
+
+  #logo {
+    width: 20%;
+  }
+
+  .illustration {
+    width: 50% !important;
+  }
+
+  .illustration + section {
+    width: 50% !important;
+  }
+
+  #heading-text {
+    font-size: 40px;
+  }
+
+  #paragraph-text {
+    font-size: 20px;
+  }
+
+  .btn {
+    height: 52px;
+    max-width: 50%;
+    font-size: 18px;
+    border-radius: 1.7rem;
+  }
+
+  .btn:hover{
+    color: hsl(0, 0%, 90%);
+    outline: 0;
+    border: 0;
+    background-color: var(--soft-magenta);
+  }
+
+  .socials {
+    position: absolute;
+    bottom: 35px;
+    right: 50px;
+  }
+
+  .fa-brands {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    transition: .5s;
+  }
+
+  .fa-brands:hover{
+    cursor: pointer;
+    border-color: var(--soft-magenta) !important;
+    color: var(--soft-magenta) !important;
+  }
+
+  .attribution {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .5s;
+  }
+
+  .attribution a:hover{
+    color: var(--soft-magenta) !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+      max-width: 1440px;
+      background: url(images/bg-desktop.svg) var(--violet) no-repeat;
+    }
+  
+    main {
+      min-height: 100vh;
+      position: absolute;
+      top: 0;
+    }
+  
+    #logo {
+      width: 10%;
+    }
+  
+    .illustration {
+      width: 50% !important;
+    }
+  
+    .illustration + section {
+      width: 50% !important;
+    }
+  
+    #heading-text {
+      font-size: 40px;
+    }
+  
+    #paragraph-text {
+      font-size: 20px;
+    }
+  
+    .btn {
+      height: 52px;
+      max-width: 50%;
+      font-size: 18px;
+      border-radius: 1.7rem;
+    }
+  
+    .btn:hover{
+      color: hsl(0, 0%, 90%);
+      outline: 0;
+      border: 0;
+      background-color: var(--soft-magenta);
+    }
+  
+    .socials {
+      position: absolute;
+      bottom: 35px;
+      right: 50px;
+    }
+  
+    .fa-brands {
+      width: 50px;
+      height: 50px;
+      font-size: 30px;
+      text-align: center;
+      transition: .5s;
+    }
+  
+    .fa-brands:hover{
+      cursor: pointer;
+      border-color: var(--soft-magenta) !important;
+      color: var(--soft-magenta) !important;
+    }
+  
+    .attribution {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      transition: .5s;
+    }
+  
+    .attribution a:hover{
+      color: var(--soft-magenta) !important;
+    }
+  }
